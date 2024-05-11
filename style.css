@@ -1,0 +1,42 @@
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+
+  margin-top: 200px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+
+  animation: box 4s linear infinite;
+  position: absolute;
+}
+@keyframes box {
+  0% {
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background-color: blue;
+    top: 300px;
+    left: 0;
+  }
+  50% {
+    background-color: green;
+    top: 300px;
+    left: 300px;
+  }
+  75% {
+    background-color: yellow;
+    top: 0;
+    left: 300px;
+  }
+  100% {
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+}

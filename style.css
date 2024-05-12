@@ -10,7 +10,7 @@
   width: 100px;
   height: 100px;
 
-  animation: box 4s linear infinite;
+  animation: box 4s ease infinite;
   position: absolute;
 }
 @keyframes box {
